@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CalculationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4d46e655-f6ac-4027-910e-e641ba2cb21c">
+  <producedTypes>
+    <selectionType typeId="81d91656-3b97-4226-b306-90131cf43f31" valueTypeId="3a10a256-3536-4abf-a3c1-eacbea7064e2"/>
+    <listType typeId="2ade57be-2354-426a-8665-058f28758e10" valueTypeId="c54fd6c1-82ec-483d-9b28-024ef251f0ca"/>
+    <managerType typeId="0151a23e-8645-40e6-9f14-bdb32482f05b" valueTypeId="1a26dbd9-cd9c-406b-9222-b4d57b7a133b"/>
+    <recordSetType typeId="fd97ffad-8d1a-47e1-8aed-b258eb64cf54" valueTypeId="1741ecbd-6834-4eed-9e53-cbe19ded4820"/>
+    <recordKeyType typeId="26180283-75e2-453c-a9ec-4769867f9757" valueTypeId="433d12f2-0858-406c-bd23-1385f6bae74b"/>
+    <recordType typeId="8332b1da-ad65-45a6-bde2-79341ef24b3b" valueTypeId="d8290525-77d0-446c-9bc5-88e23dcabbc0"/>
+    <recalcsType typeId="b9f68b3e-b1ad-45e0-a36f-23d0d26dc5bd" valueTypeId="fce07470-c1d3-4947-8cd8-31bbb8f8a51c"/>
+  </producedTypes>
+  <name>ВКМ_ОсновныеНачисления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основные начисления</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <periodicity>Month</periodicity>
+  <actionPeriod>true</actionPeriod>
+  <basePeriod>true</basePeriod>
+  <schedule>InformationRegister.ВКМ_ГрафикиРаботы</schedule>
+  <scheduleValue>InformationRegister.ВКМ_ГрафикиРаботы.Resource.Дней</scheduleValue>
+  <scheduleDate>InformationRegister.ВКМ_ГрафикиРаботы.Dimension.Дата</scheduleDate>
+  <chartOfCalculationTypes>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</chartOfCalculationTypes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="a6c7f9b0-7716-4e65-8ad7-4d9e31735f35">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="40b2879b-a636-4a3a-98fb-ca00c9fc7496">
+    <name>ОтработаноДней</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отработано дней</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="f3f71c92-e73e-4047-aeed-ef44cb2bc687">
+    <name>ГрафикРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>График работы</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВКМ_ГрафикиРаботы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="025d2db5-e03d-4eaa-bba2-42af94a2c591">
+    <name>Показатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатель</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <dimensions uuid="3ea8e997-c0e4-499d-bb5c-4f067d6e7032">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВКМ_ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </dimensions>
+</mdclass:CalculationRegister>

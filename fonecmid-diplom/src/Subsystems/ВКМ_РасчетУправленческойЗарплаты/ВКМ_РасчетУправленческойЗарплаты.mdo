@@ -1,23 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6ff1f7ba-944d-4ba6-8eaa-76a606bd09f8">
-  <name>ВКМ_ДобавленныеОбъекты</name>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8be9b05e-417e-412d-bdba-538e74039400">
+  <name>ВКМ_РасчетУправленческойЗарплаты</name>
   <synonym>
     <key>ru</key>
-    <value>Добавленные объекты</value>
+    <value>Расчет управленческой зарплаты</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
-  <content>Role.ВКМ_ОбслуживаниеКлиента</content>
-  <content>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</content>
-  <content>Constant.ВКМ_ТокенУправленияТелеграмБотом</content>
-  <content>Constant.ВКМ_ИдентификаторГруппыДляОповещения</content>
-  <content>CommonModule.ВКМ_Телеграм</content>
-  <content>HTTPService.Боты</content>
-  <content>Role.ВКМ_ИспользованиеБота</content>
-  <content>Constant.ВКМ_НоменклатураАбонентскаяПлата</content>
-  <content>Catalog.ВКМ_УведомленияТелеграмБоту</content>
-  <content>Catalog.ВКМ_ОбслуживаниеКлиентовПрисоединенныеФайлы</content>
-  <content>Constant.ВКМ_НоменклатураРаботыСпециалиста</content>
-  <content>DataProcessor.ВКМ_МассовоеСозданиеАктов</content>
+  <includeInCommandInterface>true</includeInCommandInterface>
   <content>CalculationRegister.ВКМ_ОсновныеНачисления</content>
   <content>CalculationRegister.ВКМ_ДополнительныеНачисления</content>
   <content>CalculationRegister.ВКМ_Удержания</content>
@@ -28,7 +17,6 @@
   <content>InformationRegister.ВКМ_ГрафикиРаботы</content>
   <content>Catalog.ВКМ_ГрафикиРаботы</content>
   <content>Catalog.ВКМ_ФизическиеЛица</content>
-  <content>Enum.ВКМ_КатегорияФизическогоЛица</content>
   <content>InformationRegister.ВКМ_УсловияОплатыСотрудников</content>
   <content>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы</content>
   <content>Document.ВКМ_НачислениеЗарплаты</content>
