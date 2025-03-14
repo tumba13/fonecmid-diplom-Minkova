@@ -39,4 +39,6 @@
   <content>Document.ВКМ_ГрафикОтпусков</content>
   <content>AccumulationRegister.ВКМ_ГрафикОтпусков</content>
   <content>Constant.ВКМ_МаксимальноеЧислоДнейОтпуска</content>
+  <content>DataProcessor.ВКМ_ОтправкаВТелеграм</content>
+  <content>CommonForm.ВКМ_ПараметрыБота</content>
 </mdclass:Subsystem>
