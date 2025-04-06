@@ -41,4 +41,8 @@
   <content>Constant.ВКМ_МаксимальноеЧислоДнейОтпуска</content>
   <content>DataProcessor.ВКМ_ОтправкаВТелеграм</content>
   <content>CommonForm.ВКМ_ПараметрыБота</content>
+  <content>Report.ВКМ_РасходЗапланированныхОтпусков</content>
+  <content>Report.ВКМ_ВыработкаСпециалистов</content>
+  <content>Report.ВКМ_АнализВыставленныхАктов</content>
+  <content>Report.ВКМ_РасчетыССотрудниками</content>
 </mdclass:Subsystem>

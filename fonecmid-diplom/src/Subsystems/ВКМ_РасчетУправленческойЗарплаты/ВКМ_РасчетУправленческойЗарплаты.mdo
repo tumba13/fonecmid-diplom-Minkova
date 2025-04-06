@@ -27,4 +27,8 @@
   <content>Document.ВКМ_ГрафикОтпусков</content>
   <content>AccumulationRegister.ВКМ_ГрафикОтпусков</content>
   <content>Constant.ВКМ_МаксимальноеЧислоДнейОтпуска</content>
+  <content>Report.ВКМ_РасходЗапланированныхОтпусков</content>
+  <content>Report.ВКМ_ВыработкаСпециалистов</content>
+  <content>Report.ВКМ_АнализВыставленныхАктов</content>
+  <content>Report.ВКМ_РасчетыССотрудниками</content>
 </mdclass:Subsystem>
