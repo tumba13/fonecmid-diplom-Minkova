@@ -629,6 +629,7 @@
   <roles>Role.ВКМ_ОбслуживаниеКлиента</roles>
   <roles>Role.ВКМ_ИспользованиеБота</roles>
   <roles>Role.ВКМ_ИзменениеДокументовНачисления</roles>
+  <roles>Role.ВКМ_ОбработкаМассовоеСозданиеАктов</roles>
   <commonTemplates>CommonTemplate.ДанныеПечатиОбщиеРеквизиты</commonTemplates>
   <commonTemplates>CommonTemplate.ДанныеПечатиРегистрСимволов</commonTemplates>
   <commonTemplates>CommonTemplate.ИнструкцияКакВыполнитьНастройкуМакетаOfficeOpen</commonTemplates>
@@ -1228,7 +1229,7 @@
   <catalogs>Catalog.УчетныеЗаписиСинхронизацииФайлов</catalogs>
   <catalogs>Catalog.УчетныеЗаписиЭлектроннойПочты</catalogs>
   <catalogs>Catalog.Файлы</catalogs>
-  <catalogs>Catalog.ВКМ_ОбслуживаниеКлиентовПрисоединенныеФайлы</catalogs>
+  <catalogs>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.ВКМ_УведомленияТелеграмБоту</catalogs>
   <catalogs>Catalog.ВКМ_ГрафикиРаботы</catalogs>
   <catalogs>Catalog.ВКМ_ФизическиеЛица</catalogs>
@@ -1335,6 +1336,7 @@
   <dataProcessors>DataProcessor.УправлениеИтогамиИАгрегатами</dataProcessors>
   <dataProcessors>DataProcessor.ВКМ_МассовоеСозданиеАктов</dataProcessors>
   <dataProcessors>DataProcessor.ВКМ_ОтправкаВТелеграм</dataProcessors>
+  <dataProcessors>DataProcessor.ВКМ_ЗаполнениеГрафикаРаботы</dataProcessors>
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанных</informationRegisters>
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанныхОбластейДанных</informationRegisters>
   <informationRegisters>InformationRegister.ВерсииПодсистем</informationRegisters>

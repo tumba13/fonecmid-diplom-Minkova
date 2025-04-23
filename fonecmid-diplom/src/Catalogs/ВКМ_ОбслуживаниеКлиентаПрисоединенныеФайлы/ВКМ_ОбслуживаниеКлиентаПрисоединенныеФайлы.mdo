@@ -7,12 +7,12 @@
     <listType typeId="646c795c-5dd4-49fc-b2af-e99922799870" valueTypeId="fa83d560-1c43-4c90-94dc-448b1f9d0204"/>
     <managerType typeId="2a6b083e-39f7-4ee0-928a-befaf86df167" valueTypeId="cee72a7e-3133-474e-a466-2d5b848ee6f3"/>
   </producedTypes>
-  <name>ВКМ_ОбслуживаниеКлиентовПрисоединенныеФайлы</name>
+  <name>ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы</name>
   <synonym>
     <key>ru</key>
-    <value>Присоединенные файлы (Обслуживание клиентов)</value>
+    <value>Присоединенные файлы (Обслуживание клиента)</value>
   </synonym>
-  <inputByString>Catalog.ВКМ_ОбслуживаниеКлиентовПрисоединенныеФайлы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
@@ -104,7 +104,7 @@
   <fullTextSearch>Use</fullTextSearch>
   <objectPresentation>
     <key>ru</key>
-    <value>Присоединенный файл (Обслуживание клиентов)</value>
+    <value>Присоединенный файл (Обслуживание клиента)</value>
   </objectPresentation>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>

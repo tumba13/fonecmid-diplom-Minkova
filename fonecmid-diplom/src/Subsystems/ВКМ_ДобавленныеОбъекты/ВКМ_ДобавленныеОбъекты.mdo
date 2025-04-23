@@ -15,7 +15,7 @@
   <content>Role.ВКМ_ИспользованиеБота</content>
   <content>Constant.ВКМ_НоменклатураАбонентскаяПлата</content>
   <content>Catalog.ВКМ_УведомленияТелеграмБоту</content>
-  <content>Catalog.ВКМ_ОбслуживаниеКлиентовПрисоединенныеФайлы</content>
+  <content>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы</content>
   <content>Constant.ВКМ_НоменклатураРаботыСпециалиста</content>
   <content>DataProcessor.ВКМ_МассовоеСозданиеАктов</content>
   <content>CalculationRegister.ВКМ_ОсновныеНачисления</content>
@@ -45,4 +45,5 @@
   <content>Report.ВКМ_ВыработкаСпециалистов</content>
   <content>Report.ВКМ_АнализВыставленныхАктов</content>
   <content>Report.ВКМ_РасчетыССотрудниками</content>
+  <content>DataProcessor.ВКМ_ЗаполнениеГрафикаРаботы</content>
 </mdclass:Subsystem>
