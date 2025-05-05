@@ -630,6 +630,7 @@
   <roles>Role.ВКМ_ИспользованиеБота</roles>
   <roles>Role.ВКМ_ИзменениеДокументовНачисления</roles>
   <roles>Role.ВКМ_ОбработкаМассовоеСозданиеАктов</roles>
+  <roles>Role.ВКМ_ИспользованиеОтчетов</roles>
   <commonTemplates>CommonTemplate.ДанныеПечатиОбщиеРеквизиты</commonTemplates>
   <commonTemplates>CommonTemplate.ДанныеПечатиРегистрСимволов</commonTemplates>
   <commonTemplates>CommonTemplate.ИнструкцияКакВыполнитьНастройкуМакетаOfficeOpen</commonTemplates>
