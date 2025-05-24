@@ -21,4 +21,5 @@
   <content>CommonForm.ВКМ_ПараметрыБота</content>
   <content>Report.ВКМ_ВыработкаСпециалистов</content>
   <content>Report.ВКМ_АнализВыставленныхАктов</content>
+  <content>ScheduledJob.ВКМ_ОтправкаСообщенийВТелеграмм</content>
 </mdclass:Subsystem>

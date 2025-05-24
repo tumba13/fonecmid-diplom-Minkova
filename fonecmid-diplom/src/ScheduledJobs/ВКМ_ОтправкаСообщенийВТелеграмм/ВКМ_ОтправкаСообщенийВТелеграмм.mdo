@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6b9cc04b-1902-4e12-bc71-329d7ac341b3">
+  <name>ВКМ_ОтправкаСообщенийВТелеграмм</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отправка сообщений в телеграмм</value>
+  </synonym>
+  <methodName>CommonModule.ВКМ_Телеграм.ВКМ_ОтправитьСообщениеВТелеграм</methodName>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

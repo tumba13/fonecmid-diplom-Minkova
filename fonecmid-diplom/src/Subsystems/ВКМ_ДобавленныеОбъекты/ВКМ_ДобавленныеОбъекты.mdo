@@ -47,4 +47,5 @@
   <content>Report.ВКМ_РасчетыССотрудниками</content>
   <content>DataProcessor.ВКМ_ЗаполнениеГрафикаРаботы</content>
   <content>CommonModule.ВКМ_ПрофилиГруппДоступа</content>
+  <content>ScheduledJob.ВКМ_ОтправкаСообщенийВТелеграмм</content>
 </mdclass:Subsystem>
