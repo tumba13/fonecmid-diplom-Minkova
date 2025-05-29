@@ -22,4 +22,5 @@
   <content>Report.ВКМ_ВыработкаСпециалистов</content>
   <content>Report.ВКМ_АнализВыставленныхАктов</content>
   <content>ScheduledJob.ВКМ_ОтправкаСообщенийВТелеграмм</content>
+  <content>AccumulationRegister.ВКМ_ВыставленныеЗаРаботыАкты</content>
 </mdclass:Subsystem>

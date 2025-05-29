@@ -48,4 +48,5 @@
   <content>DataProcessor.ВКМ_ЗаполнениеГрафикаРаботы</content>
   <content>CommonModule.ВКМ_ПрофилиГруппДоступа</content>
   <content>ScheduledJob.ВКМ_ОтправкаСообщенийВТелеграмм</content>
+  <content>AccumulationRegister.ВКМ_ВыставленныеЗаРаботыАкты</content>
 </mdclass:Subsystem>
